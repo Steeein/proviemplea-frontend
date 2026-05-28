@@ -1,0 +1,64 @@
+/* Contenedor principal de la tarjeta */
+.tarjeta-perfil {
+    background-color: #ffffff;
+    border-radius: 12px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.1); /* Sombra suave para dar relieve */
+    padding: 20px;
+    margin: 15px;
+    max-width: 280px; /* Ancho máximo para que no se estire en pantallas grandes */
+    
+    /* Usamos Flexbox para centrar todo hacia abajo */
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    
+    /* Animación fluida para cuando pasemos el mouse */
+    transition: transform 0.3s ease, box-shadow 0.3s ease;
+}
+
+/* Efecto hover: la tarjeta "flota" cuando le pasas el mouse */
+.tarjeta-perfil:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 8px 20px rgba(0, 0, 0, 0.15);
+}
+
+/* Diseño de la imagen de perfil */
+.tarjeta-perfil img {
+    border-radius: 50%; /* Hace que la imagen cuadrada se vuelva circular */
+    width: 120px;
+    height: 120px;
+    object-fit: cover;
+    margin-bottom: 15px;
+    border: 3px solid #e0e0e0;
+}
+
+/* Textos */
+.tarjeta-perfil h3 {
+    margin: 0;
+    color: #333333;
+    font-size: 1.3rem;
+}
+
+.tarjeta-perfil p {
+    color: #666666;
+    font-size: 0.95rem;
+    margin: 8px 0 20px 0;
+}
+
+/* Botón de Contactar */
+.tarjeta-perfil button {
+    background-color: #007bff; /* Azul corporativo */
+    color: white;
+    border: none;
+    padding: 10px 20px;
+    border-radius: 6px;
+    font-weight: bold;
+    cursor: pointer;
+    transition: background-color 0.2s;
+    width: 100%;
+}
+
+.tarjeta-perfil button:hover {
+    background-color: #0056b3; /* Azul más oscuro al pasar el mouse */
+}
