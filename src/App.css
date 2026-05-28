@@ -1,0 +1,17 @@
+/* src/App.css */
+
+.contenedor-grilla {
+    display: grid;
+    /* ¡Esta es la línea mágica para la responsividad! */
+    grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+    gap: 20px; /* Espacio entre cada tarjeta */
+    padding: 20px;
+    justify-items: center; /* Centra las tarjetas en su espacio */
+    max-width: 1200px;
+    margin: 0 auto; /* Centra toda la grilla en la pantalla */
+}
+
+h1, p {
+    text-align: center;
+    font-family: sans-serif;
+}
