@@ -1,0 +1,81 @@
+/* src/components/CarruselTestimonios.css */
+
+.carrusel-contenedor {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin: 40px auto;
+    padding: 0 20px;
+    max-width: 600px; /* Evita que el carrusel sea gigante en PC */
+}
+
+.carrusel-titulo {
+    color: #1e293b;
+    margin-bottom: 20px;
+}
+
+.carrusel-tarjeta {
+    background-color: #f8fafc;
+    border-left: 5px solid #0284c7;
+    padding: 30px;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.05);
+    text-align: center;
+    width: 100%;
+}
+
+.carrusel-texto {
+    font-size: 1.1rem;
+    font-style: italic;
+    color: #475569;
+    min-height: 80px; /* Mantiene un tamaño fijo aunque el texto sea más corto */
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.carrusel-autor {
+    color: #0f172a;
+    margin-top: 15px;
+    margin-bottom: 25px;
+}
+
+.carrusel-controles {
+    display: flex;
+    justify-content: center;
+    gap: 15px;
+}
+
+.btn-carrusel {
+    background-color: transparent;
+    color: #0284c7;
+    border: 2px solid #0284c7;
+    padding: 8px 20px;
+    border-radius: 20px;
+    cursor: pointer;
+    font-weight: bold;
+    transition: all 0.3s ease;
+}
+
+.btn-carrusel:hover {
+    background-color: #0284c7;
+    color: white;
+}
+
+.carrusel-indicador {
+    color: #64748b;
+    font-size: 0.9rem;
+    align-self: center;
+    min-width: 40px;
+    text-align: center;
+}
+
+.carrusel-estado {
+    color: #64748b;
+    font-style: italic;
+    padding: 20px;
+}
+
+.carrusel-error {
+    color: #dc2626;
+}

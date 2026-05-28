@@ -1,0 +1,17 @@
+[
+  {
+    "id": 1,
+    "texto": "Gracias a ProviEmplea encontramos al desarrollador perfecto en tiempo récord.",
+    "autor": "Empresa Tech Chile"
+  },
+  {
+    "id": 2,
+    "texto": "La búsqueda inversa nos ahorró semanas de revisar currículums que no calzaban.",
+    "autor": "Consultora HR"
+  },
+  {
+    "id": 3,
+    "texto": "Excelente plataforma. El talento local de Providencia está a un clic de distancia.",
+    "autor": "Startup Innova"
+  }
+]
