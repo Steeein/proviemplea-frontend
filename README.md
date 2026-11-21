@@ -1,6 +1,8 @@
 # ProviEmplea — Plataforma de Búsqueda Inversa de Talento Local
 
-Aplicación web desarrollada con **React + Vite** como Evaluación de la Unidad 3 del curso de Desarrollo Frontend en el **Instituto San Sebastián (CIISA)**. El objetivo del proyecto es simular una plataforma de reclutamiento donde las empresas encuentran talento local de Providencia de manera proactiva, sin esperar que los candidatos postulen.
+Aplicación web construida con **React 19 + Vite** que invierte el modelo de reclutamiento tradicional: en lugar de publicar vacantes y esperar postulaciones, las empresas buscan y contactan directamente talento local de la comuna de Providencia.
+
+Consume la API de [proviemplea-backend](https://github.com/Steeein/proviemplea-backend).
 
 ---
 
@@ -15,8 +17,8 @@ Aplicación web desarrollada con **React + Vite** como Evaluación de la Unidad 
 
 ```bash
 # 1. Clonar el repositorio
-git clone https://github.com/<tu-usuario>/proviemplea.git
-cd proviemplea
+git clone https://github.com/Steeein/proviemplea-frontend.git
+cd proviemplea-frontend
 
 # 2. Instalar dependencias
 npm install
@@ -155,5 +157,4 @@ Warning: A component is changing a controlled input to be uncontrolled.
 
 ## Autor
 
-**Diego Abaroa** — Estudiante de Desarrollo Frontend  
-Instituto San Sebastián (CIISA) · Evaluación Unidad 3 · 2026
+**Diego Abaroa** — [@Steeein](https://github.com/Steeein)
